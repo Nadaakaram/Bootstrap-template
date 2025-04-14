@@ -1,0 +1,129 @@
+.navbar {
+  background-color:rgba(33, 37, 41, 0.225) !important;
+  backdrop-filter: blur(10px);
+    z-index: 10;
+}
+
+
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background: linear-gradient(135deg, orange, deeppink);
+    color: #212529; 
+    
+        display: flex;
+    align-items: center;
+    text-align: center;
+    padding-top: 70px;
+  }
+
+  .masthead h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+  }
+
+  .masthead .btn {
+    background-color: #212529;
+    color: white;
+    transition: all 0.3s ease;
+
+  }
+  .masthead .btn:hover {
+    background-color: white;
+    color: #212529;
+    transform: scale(1.05);
+  }
+  
+
+  .content-section {
+    padding: 60px 0;
+  }
+
+  .content-section p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+  } 
+  .content-section h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  .content-section img {
+    width: 100%;
+    border-radius: 50%;
+  }
+
+  .card-section {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+  }
+  .message-section {
+    background-color:#343a40; 
+    padding: 60px 0;
+    height: 60vh;
+  }
+  
+  .message-btn {
+    background:linear-gradient(135deg, orange, deeppink); 
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  .subscribe-section {
+    background: linear-gradient(135deg, orange, deeppink);
+    padding: 60px 0;
+    text-align: center;
+  }
+
+  .subscribe-section input[type="email"] {
+    max-width: 400px;
+    margin: 10px auto;
+  }
+  .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .icon-section a {
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+    text-decoration: none;
+  }
+
+
+  .social-icons a i {
+    transition: inherit;
+  }
+  
+  .facebook i {
+    color: #1877f2;
+  }
+  
+  .instagram i {
+    color: #e1306c; 
+  }
+  
+  .pinterest i {
+    color: #bd081c;
+  }
+  
+  .twitter i {
+    color: #1da1f2;
+  }
+  
+  .social-icons a:hover i {
+    transform: scale(1.2);
+  }
